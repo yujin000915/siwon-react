@@ -7,7 +7,7 @@ function App() {
 		<header className="App-header">
 			<img src={logo} className="App-logo" alt="logo" />
 			<p>
-				리액트 스터디 2조 : 박유진, 장원미, 신균욱, 최원석입니다.<br /><br />deploy test 젠장
+				리액트 스터디 2조 : 박유진, 장원미, 신균욱, 최원석입니다.<br /><br />헬로우
 			</p>
 			<a
 			className="App-link"
