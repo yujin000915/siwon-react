@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import PostListPage from './pages/PostListPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import WritePage from './pages/WritePage';
+import PostPage from './pages/PostPage';
 
-function App() {
-	return (
-		<div className="App">
-		<header className="App-header">
-			<img src={logo} className="App-logo" alt="logo" />
-			<p>
-				리액트 스터디 2조 : 박유진, 장원미, 신균욱, 최원석입니다.<br />박유진 박유진<br />
-			</p>
-			<a
-			className="App-link"
-			href="https://reactjs.org"
-			target="_blank"
-			rel="noopener noreferrer"
-			>
-			Learn React
-			</a>
-		</header>
-		</div>
-	);
-}
+const App = () => {
+  return (
+    <>
+	    <Route component={PostListPage} path="/PostListPage" />
+      <Route component={LoginPage} path="/login" />
+      <Route component={RegisterPage} path="/register" />
+      <Route component={WritePage} path="/write" />
+      <Route component={PostPage} path="/@:username/:postId" />
+ 
 
+    </>
+  );
+};
 export default App;
