@@ -1,10 +1,10 @@
 {
-	"homepage": "https://yujin000915.github.io/siwon-react",
 	"name": "frontend",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.14.1",
+		"axios": "^1.3.4",
 		"gh-pages": "^5.0.0",
 		"immer": "^9.0.19",
 		"react": "^17.0.2",
@@ -15,7 +15,10 @@
 		"redux": "^4.2.1",
 		"redux-actions": "^3.0.0",
 		"redux-devtools-extension": "^2.13.9",
+		"redux-saga": "^1.2.2",
 		"styled-components": "^5.3.6",
+		"vue": "^2.7.8",
+		"vue-template-compiler": "^2.7.14",
 		"web-vitals": "^2.1.0"
 	},
 	"scripts": {
@@ -47,5 +50,6 @@
 	"devDependencies": {
 		"@testing-library/react": "^12.1.5",
 		"@testing-library/user-event": "^12.8.3"
-	}
+	},
+	"proxy": "http://localhost:4000/"
 }

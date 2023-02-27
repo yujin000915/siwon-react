@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### npm i react-router-dom@5.2.0
+### npm install react@17.0.2 react-dom@17.0.2
+### npm install react-router-dom@5.2.0
+### npm install --save-dev @testing-library/user-event@12
+### npm install --save-dev @testing-library/react@12     
+### npm install styled-components
+### npm install redux react-redux redux-actions immer redux-devtools-extension
+### npm install vue  /  npm install vue@2.7.8 
+### npm install vue-template-compiler
+### npm install vue-router
+
+### npm install redux-saga    / npm install redux-saga\effects   
+### npm install axios  
+### npm install redux-devtools-extension
+### npm install redux react-redux redux-actions immer redux-devtools-extension
+###  npm install styled-components  
