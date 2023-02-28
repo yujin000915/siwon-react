@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Responsive from './Responsive';
 import Button from './Button';
+
 const HeaderBlock = styled.div`
   position: fixed;
   width: 100%;
@@ -17,7 +18,7 @@ const Wrapper = styled(Responsive)`
   height: 4rem;
   display: flex;
   align-items: center;
-  justify-content: space-between; /* flex option */
+  justify-content: space-between; /* 자식 엘리먼트 사이에 여백을 최대로 설정 */
   .logo {
     font-size: 1.125rem;
     font-weight: 800;
@@ -29,38 +30,30 @@ const Wrapper = styled(Responsive)`
   }
 `;
 
-
-
 /**
- * 헤더가 fixed로 되어 있기 때문에 겹치지 않게 페이지의 컨텐츠가 4rem 아래 나타나도록 해주는 컴포넌트
+ * 헤더가 fixed로 되어 있기 때문에 페이지의 컨텐츠가 4rem 아래 나타나도록 해주는 컴포넌트
  */
 const Spacer = styled.div`
   height: 4rem;
 `;
 
-
-/**
- * user 정보 띄워줄 컴포넌트
- */
 const UserInfo = styled.div`
   font-weight: 800;
   margin-right: 1rem;
 `;
 
-const Header = ({ user }) => {
+const Header = ({ user, onLogout }) => {
   return (
     <>
       <HeaderBlock>
         <Wrapper>
-          {/* index 로 이동하는 Link 컴포넌트 */}
           <Link to="/" className="logo">
             REACTERS
           </Link>
-          {/* user 값이 있으면 즉, 로그인 상태면 로그아웃을 버튼을 보여주고, 그렇지 않으면 로그인 버튼 보여주기 */}
           {user ? (
             <div className="right">
               <UserInfo>{user.username}</UserInfo>
-              <Button>로그아웃</Button>
+              <Button onClick={onLogout}>로그아웃</Button>
             </div>
           ) : (
             <div className="right">
