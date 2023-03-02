@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/siwon-react/static/css/main.073c9b0a.css",
-    "main.js": "/siwon-react/static/js/main.19a57771.js",
-    "static/js/787.cda612ba.chunk.js": "/siwon-react/static/js/787.cda612ba.chunk.js",
-    "static/media/logo.svg": "/siwon-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/siwon-react/index.html",
-    "main.073c9b0a.css.map": "/siwon-react/static/css/main.073c9b0a.css.map",
-    "main.19a57771.js.map": "/siwon-react/static/js/main.19a57771.js.map",
-    "787.cda612ba.chunk.js.map": "/siwon-react/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.ad29d0f3.css",
+    "main.js": "/static/js/main.a2bcf060.js",
+    "index.html": "/index.html",
+    "main.ad29d0f3.css.map": "/static/css/main.ad29d0f3.css.map",
+    "main.a2bcf060.js.map": "/static/js/main.a2bcf060.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.19a57771.js"
+    "static/css/main.ad29d0f3.css",
+    "static/js/main.a2bcf060.js"
   ]
 }
